@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# sudo ./configure-federation -s jdennis_test.example.com -i https://jdennis-rhsso-7 -r test_realm client-install
-
 prog_name=`basename $0`
 action=
 dry_run=0
