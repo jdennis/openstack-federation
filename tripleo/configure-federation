@@ -171,7 +171,7 @@ function create_ipa_service_account {
     # ldapsearch -H $ldap_url -x -D "$service_dn" -w "$FED_IPA_RHSSO_SERVICE_PASSWD" -b "cn=users,cn=accounts,$FED_IPA_BASE_DN"
 
     local status=0
-    local ldap_url="ldap://$FED_IPA_HOST"
+    local ldap_url="ldaps://$FED_IPA_HOST"
     local dir_mgr_dn="cn=Directory Manager"
     local service_name="rhsso"
     local service_dn="uid=$service_name,cn=sysaccounts,cn=etc,$FED_IPA_BASE_DN"

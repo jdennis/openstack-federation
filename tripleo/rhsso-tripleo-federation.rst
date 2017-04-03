@@ -437,7 +437,7 @@ use of the ``ldapmodify`` command.
 
 This can be performed like this::
 
-    ldap_url="ldap://$FED_IPA_HOST"
+    ldap_url="ldaps://$FED_IPA_HOST"
     dir_mgr_dn="cn=Directory Manager"
     service_name="rhsso"
     service_dn="uid=$service_name,cn=sysaccounts,cn=etc,$FED_IPA_BASE_DN"
@@ -553,7 +553,7 @@ In the RH-SSO administration web console perform the following actions:
    +-------------------------+--------------------------------------------------+
    | User Object Classes     | inetOrgPerson, organizationalPerson              |
    +-------------------------+--------------------------------------------------+
-   | Connection URL          | LDAP://$FED_IPA_HOST                             |
+   | Connection URL          | LDAPS://$FED_IPA_HOST                             |
    +-------------------------+--------------------------------------------------+
    | Users DN                | cn=users,cn=accounts,$FED_IPA_BASE_DN            |
    +-------------------------+--------------------------------------------------+
