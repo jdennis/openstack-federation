@@ -553,7 +553,7 @@ In the RH-SSO administration web console perform the following actions:
    +-------------------------+--------------------------------------------------+
    | User Object Classes     | inetOrgPerson, organizationalPerson              |
    +-------------------------+--------------------------------------------------+
-   | Connection URL          | LDAPS://$FED_IPA_HOST                             |
+   | Connection URL          | LDAPS://$FED_IPA_HOST                            |
    +-------------------------+--------------------------------------------------+
    | Users DN                | cn=users,cn=accounts,$FED_IPA_BASE_DN            |
    +-------------------------+--------------------------------------------------+
